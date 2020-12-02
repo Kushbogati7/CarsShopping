@@ -11,7 +11,7 @@
 var hancy = document.getElementsByTagName("button")[0];
 
 hancy.addEventListener("click" , function(){
-	console.log("clicks");
+	console.log("press");
 })
 
 var hancy=document.getElementsByTagName("button")[1];
