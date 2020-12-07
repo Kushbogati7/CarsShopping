@@ -17,8 +17,13 @@ hancy.addEventListener("click" , function(){
 var hancy=document.getElementsByTagName("button")[1];
  
 hancy.addEventListener("click" , function(){
-	console.log("click and clicks");
-});
+	console.log("clicks");
+})
+ var hancy = document.getElementsByTagName("button")[2];
+
+ hancy.addEventListener("click" , function(){
+	 console.log("press and clicks")
+ } )
 
 
 
