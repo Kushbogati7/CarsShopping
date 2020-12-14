@@ -30,11 +30,7 @@ hancy.addEventListener("click" , function(){
 		 console.log("searched")
 	 } )
 
-
-
-
-
-
+	 
 var cart = document.getElementById("nepal");
 var cars = document.getElementById("kathmandu");
 var ul = document.querySelector("ul");
@@ -45,7 +41,17 @@ function saynewcars(){
 	li.appendChild(document.createTextNode(cars.value));
     
     var deleteButton = document.createElement("button");
-    deleteButton.appendChild(document.createTextNode("cancel"));														
+	deleteButton.appendChild(document.createTextNode("cancel"));
+
+	//this is where we are making the "cancell" button in every cars name inputted ,to be counted..
+	//we are doing the stuff in this line because delete button is defined in "43" line so we cannot assign it above,
+	//the "43" line..
+	
+	var hancy = deleteButton;
+	   hancy.addEventListener("click", function(){
+		   console.log("cancelled")
+	   })
+															
 													
     ul.appendChild(li);
 	li.appendChild(deleteButton);
