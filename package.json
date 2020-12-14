@@ -1,0 +1,19 @@
+{
+  "name": "carsshopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Key.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushbogati7/CarsShopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kushbogati7/CarsShopping/issues"
+  },
+  "homepage": "https://github.com/Kushbogati7/CarsShopping#readme"
+}
