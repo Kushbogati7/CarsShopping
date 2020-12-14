@@ -17,13 +17,18 @@ hancy.addEventListener("click" , function(){
 var hancy=document.getElementsByTagName("button")[1];
  
 hancy.addEventListener("click" , function(){
-	console.log("clicks");
+	console.log("click");
 })
  var hancy = document.getElementsByTagName("button")[2];
 
  hancy.addEventListener("click" , function(){
-	 console.log("press and clicks")
+	 console.log("tap")
  } )
+ 
+ var hancy = document.getElementById("kathmandu");
+     hancy.addEventListener("click",function(){
+		 console.log("searched")
+	 } )
 
 
 
